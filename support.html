@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iLQ – Support</title>
+<style>
+  :root { color-scheme: light dark; --text:#333a40; --accent:#22aadd; --muted:#6b7280; --bg:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --text:#e2e4e8; --muted:#9ca3af; --bg:#111418; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:300 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 20px; }
+  h1 { font-weight:200; font-size:40px; color:var(--accent); margin:0 0 8px; }
+  h2 { font-weight:400; font-size:20px; color:var(--accent); margin:36px 0 8px; }
+  p, li { margin:0 0 12px; }
+  .muted { color:var(--muted); font-size:15px; }
+  code { font: 15px ui-monospace, Menlo, monospace; }
+  hr { border:0; border-top:1px solid rgba(127,127,127,.25); margin:40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>iLQ</h1>
+  <p class="muted">Radiotherapy dose-equivalence calculator based on the linear-quadratic model.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, suggestions or a possible error: <a href="mailto:jebibault@gmail.com?subject=iLQ">jebibault@gmail.com</a></p>
+
+  <h2>Formulas</h2>
+  <p>Equivalent dose: <code>D₂ = D₁ × (α/β + d₁) / (α/β + d₂)</code></p>
+  <p>EQD2: <code>EQD2 = D × (α/β + d) / (α/β + 2)</code></p>
+  <p>D: total dose, d: dose per fraction. The model is valid for a dose per fraction between 1 and 6 Gy.</p>
+
+  <h2>Important</h2>
+  <p>iLQ is intended for research purposes only and must not be used to adapt or modify patient treatment.</p>
+
+  <hr>
+
+  <div lang="fr">
+    <h1>iLQ</h1>
+    <p class="muted">Calculateur d'équivalence de dose en radiothérapie fondé sur le modèle linéaire quadratique.</p>
+    <h2>Contact</h2>
+    <p>Questions, suggestions ou erreur éventuelle : <a href="mailto:jebibault@gmail.com?subject=iLQ">jebibault@gmail.com</a></p>
+    <h2>Formules</h2>
+    <p>Dose équivalente : <code>D₂ = D₁ × (α/β + d₁) / (α/β + d₂)</code></p>
+    <p>EQD2 : <code>EQD2 = D × (α/β + d) / (α/β + 2)</code></p>
+    <p>D : dose totale, d : dose par fraction. Le modèle est valide pour une dose par fraction comprise entre 1 et 6 Gy.</p>
+    <h2>Important</h2>
+    <p>iLQ est destiné exclusivement à la recherche et ne doit pas être utilisé pour adapter ou modifier le traitement d'un patient.</p>
+  </div>
+</main>
+</body>
+</html>
